@@ -1,0 +1,11 @@
+Cheat Sheet
+
+compile				gcc filename.c -o filename
+compile(link-math)	gcc filename.c -lm -o filename
+compile(linker)		gcc file1.c file2.c -std=c99 -o filename
+find				ls -l filename
+run					./filename
+
+Print preprocessing	gcc -E file.c
+Define assign value	gcc -DSYMBOL=VALUE program.c
+Define 					gcc -DDEBUG program.c
